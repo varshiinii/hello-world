@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int addNumbers(int a, int b);
+int addNumbers(int x, int y);
 
 int main() {
     int num1, num2;
@@ -21,6 +21,6 @@ int main() {
     return 0;
 }
 
-int addNumbers(int a, int b) {
+int addNumbers(int x, int y) {
     return a + b;
 }
